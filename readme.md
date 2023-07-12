@@ -12,8 +12,7 @@ npm install -g parcel-bundler
 ```
 npm run start
 ```
-4. Navigate to the URL
-
+4. Navigate to the URL: http://localhost:1234
 
 5. To make the comparison of using the CSS preprocessor uncomment/comment the style file in the index.html file
 ```HTML
