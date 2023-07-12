@@ -1,0 +1,17 @@
+{
+	"name": "build-system-students",
+	"version": "1.0.0",
+	"description": "Parcel-based build system for students",
+	"source": "./index.html",
+	"scripts": {
+		"start": "parcel index.html --open",
+		"build": "parcel build index.html"
+	},
+	"devDependencies": {
+		"@parcel/transformer-less": "^2.9.3",
+		"@parcel/transformer-sass": "^2.9.3",
+		"@parcel/transformer-stylus": "^2.9.3",
+		"parcel": "^2.9.3",
+		"sass": "^1.63.6"
+	}
+}

@@ -1,0 +1,12 @@
+$font-size: 24px;
+
+h1 {
+	color: blue;
+	font-size: $font-size;
+
+	&::after {
+		content: 'SCSS';
+	}
+}
+
+@debug 'hello'; // debug does not work with parcel
